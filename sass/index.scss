@@ -1,0 +1,30 @@
+$blue: #5571ad;
+
+$size_dot: 35px;
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $blue;
+
+  height: 100vh;
+}
+
+
+.dots{  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+  height: 200px;
+
+  .dot{
+    width: $size_dot;
+    height: $size_dot;
+    background-color: red;
+    border: 2px solid black;
+    border-radius: 50%;
+  }
+}
