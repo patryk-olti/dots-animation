@@ -33,24 +33,24 @@ body {
 .dots .dot {
   width: 35px;
   height: 35px;
-  background-color: red;
-  border: 2px solid black;
-  border-radius: 50%;
+  background-color: #d64a4a;
+  border: 2px solid #312f2f;
+  border-radius: 42%;
 }
 
 .dot:nth-child(1) {
-  -webkit-animation: transformDots 4s linear infinite;
-          animation: transformDots 4s linear infinite;
+  -webkit-animation: transformDots 2s linear infinite;
+          animation: transformDots 2s linear infinite;
 }
 
 .dot:nth-child(2) {
-  -webkit-animation: transformDots 4s linear 0.1s infinite;
-          animation: transformDots 4s linear 0.1s infinite;
+  -webkit-animation: transformDots 2s linear 0.1s infinite;
+          animation: transformDots 2s linear 0.1s infinite;
 }
 
 .dot:nth-child(3) {
-  -webkit-animation: transformDots 4s linear 0.2s infinite;
-          animation: transformDots 4s linear 0.2s infinite;
+  -webkit-animation: transformDots 2s linear 0.2s infinite;
+          animation: transformDots 2s linear 0.2s infinite;
 }
 
 @-webkit-keyframes transformDots {
@@ -58,11 +58,11 @@ body {
     -webkit-transform: translateY(0);
             transform: translateY(0);
   }
-  94% {
+  90% {
     -webkit-transform: translateY(0px);
             transform: translateY(0px);
   }
-  97% {
+  95% {
     -webkit-transform: translateY(-30px);
             transform: translateY(-30px);
   }
@@ -77,11 +77,11 @@ body {
     -webkit-transform: translateY(0);
             transform: translateY(0);
   }
-  94% {
+  90% {
     -webkit-transform: translateY(0px);
             transform: translateY(0px);
   }
-  97% {
+  95% {
     -webkit-transform: translateY(-30px);
             transform: translateY(-30px);
   }

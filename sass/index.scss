@@ -1,5 +1,5 @@
 $blue: #5571ad;
-$timeAnimation: 4s;
+$timeAnimation: 2s;
 $size_dot: 35px;
 
 body{
@@ -23,9 +23,9 @@ body{
   .dot{
     width: $size_dot;
     height: $size_dot;
-    background-color: red;
-    border: 2px solid black;
-    border-radius: 50%;
+    background-color: rgb(214, 74, 74);
+    border: 2px solid rgb(49, 47, 47);
+    border-radius: 42%
 
   }
 }
@@ -47,10 +47,10 @@ body{
   0%{
     transform: translateY(0);
   }
-  94%{
+  90%{
     transform: translateY(0px);
   }
-  97%{
+  95%{
     transform: translateY(-30px);
   }
   100%{
